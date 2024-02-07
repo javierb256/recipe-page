@@ -21,3 +21,61 @@
 body {
     font-size: 16px;
 }
+
+h1, h2 {
+    font-family: var(--young-seriff);
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    color: var(--nutmeg);
+}
+
+p {
+    font-family: var(--outfit);
+}
+
+li {
+    font-family: var(--outfit);
+}
+
+li::marker {
+    color: var(--nutmeg);
+    font-size: 14px;
+}
+
+ol li::marker {
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+
+hr {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(158, 158, 158);
+}
+
+.wenge-brown {
+    color: var(--wenge-brown);
+}
+
+.nutmeg {
+    color: var(--nutmeg);
+}
+
+.prep-time {
+    background-color: var(--rose-white);
+}
+
+.prep-time h3 {
+    color: var(--dark-raspberry);
+    font-weight: 700;
+}
+
+.nutrition hr {
+    width: 100%;
+}

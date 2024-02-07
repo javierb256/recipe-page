@@ -24,6 +24,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="styles.css" />
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
@@ -40,110 +41,118 @@
       <div class="container-sm p-0">
         <header>
           <img class="img-fluid" src="./assets/images/image-omelette.jpeg" />
-          <h1 class="text-center fw-bold">Simple Omelette Recipe</h1>
-          <p>
-            Simple Omelette Recipe An easy and quick dish, perfect for any meal.
-            This classic omelette combines beaten eggs cooked to perfection,
-            optionally filled with your choice of cheese, vegetables, or meats.
-          </p>
         </header>
 
-        <section>
-          <div>
+        <section class="px-4 mt-4">
+          <h1 class="text-start fw-semibold mb-3">Simple Omelette Recipe</h1>
+          <p>
+            An easy and quick dish, perfect for any meal. This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
+        </section>
+
+        <section class="px-4 mt-4">
+          <div class="prep-time pt-4 pb-1 ps-4 pe-5 rounded">
             <h3>Preparation time</h3>
-            <ul>
-              <li><b>Total</b>: Approximately 10 minutes</li>
-              <li><b>Preparation</b>: 5 minutes</li>
-              <li><b>Cooking</b>: 5 minutes</li>
+            <ul class="ps-4">
+              <li class="ps-3 pb-2"><b>Total</b>: Approximately 10 minutes</li>
+              <li class="ps-3 pb-2"><b>Preparation</b>: 5 minutes</li>
+              <li class="ps-3 pb-2"><b>Cooking</b>: 5 minutes</li>
             </ul>
           </div>
         </section>
-        <section>
-          <h2>Ingredients</h2>
+        <section class="px-4 mt-4 mb-4">
+          <h2 class="pb-2">Ingredients</h2>
           <ul>
-            <li>2-3 large eggs</li>
-            <li>Salt, to taste</li>
-            <li>Pepper, to taste</li>
-            <li>1 tablespoon of butter or oil</li>
-            <li>
+            <li class="pb-2 ps-3">2-3 large eggs</li>
+            <li class="pb-2 ps-3">Salt, to taste</li>
+            <li class="pb-2 ps-3">Pepper, to taste</li>
+            <li class="pb-2 ps-3">1 tablespoon of butter or oil</li>
+            <li class="ps-3">
               Optional fillings: cheese, diced vegetables, cooked meats, herbs
             </li>
           </ul>
         </section>
         <hr />
-        <section>
-          <h2>Instructions</h2>
-          <ol>
-            <li>
+        <section class="px-4 mt-4">
+          <h2 class="pb-2">Instructions</h2>
+          <ol class="ps-4">
+            <li class="ps-2 pe-3 pb-2">
               <b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of
               salt and pepper until they are well mixed. You can add a
               tablespoon of water or milk for a fluffier texture.
             </li>
-            <li>
+            <li class="ps-2 pe-3 pb-2">
               <b>Heat the pan</b>: Place a non-stick frying pan over medium heat
               and add butter or oil.
             </li>
-            <li>
+            <li class="ps-2 pe-3 pb-2">
               <b>Cook the omelette</b>: Once the butter is melted and bubbling,
               pour in the eggs. Tilt the pan to ensure the eggs evenly coat the
               surface.
             </li>
-            <li>
+            <li class="ps-2 pe-3 pb-2">
               <b>Add fillings (optional)</b>: When the eggs begin to set at the
               edges but are still slightly runny in the middle, sprinkle your
               chosen fillings over one half of the omelette.
             </li>
-            <li>
+            <li class="ps-2 pe-3 pb-2">
               <b>Fold and serve</b>: As the omelette continues to cook,
               carefully lift one edge and fold it over the fillings. Let it cook
               for another minute, then slide it onto a plate.
             </li>
-            <li>
+            <li class="ps-2 pe-3 pb-2">
               <b>Enjoy</b>: Serve hot, with additional salt and pepper if
               needed.
             </li>
           </ol>
         </section>
         <hr />
-        <section>
-          <h2>Nutrition</h2>
-          <p>
+        <section class="px-4 mt-4 nutrition">
+          <h2 class="pb-2">Nutrition</h2>
+          <p class="pe-3">
             The table below shows nutritional values per serving without the
             additional fillings.
           </p>
-          <div class="row">
-            <div>
-              <p>Calories</p>
+          <div class="px-1 pt-2">
+            <div class="row justify-content-center">
+              <div class="col-5">
+                <p>Calories</p>
+              </div>
+              <div class="col-5">
+                <p class="nutmeg fw-bold">277kcal</p>
+              </div>
             </div>
-            <div>
-              <p>277kcal</p>
+            <hr class="mt-0">
+            <div class="row justify-content-center">
+              <div class="col-5">
+                <p>Carbs</p>
+              </div>
+              <div class="col-5">
+                <p class="nutmeg fw-bold">0g</p>
+              </div>
+            </div>
+            <hr class="mt-0">
+            <div class="row justify-content-center">
+              <div class="col-5">
+                <p>Protein</p>
+              </div>
+              <div class="col-5">
+                <p class="nutmeg fw-bold">20g</p>
+              </div>
+            </div>
+            <hr class="mt-0">
+            <div class="row justify-content-center">
+              <div class="col-5">
+                <p>Fat</p>
+              </div>
+              <div class="col-5">
+                <p class="nutmeg fw-bold">22g</p>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div>
-              <p>Carbs</p>
-            </div>
-            <div>
-              <p>0g</p>
-            </div>
-          </div>
-          <div class="row">
-            <div>
-              <p>Protein</p>
-            </div>
-            <div>
-              <p>20g</p>
-            </div>
-          </div>
-          <div class="row">
-            <div>
-              <p>Fat</p>
-            </div>
-            <div>
-              <p>22g</p>
-            </div>
-          </div>
-          <div></div>
+         
         </section>
       </div>
     </main>
