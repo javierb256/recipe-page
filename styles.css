@@ -58,6 +58,9 @@ hr {
     margin-right: auto;
     color: rgb(158, 158, 158);
 }
+p, ul, ol {
+    color: var(--wenge-brown);
+}
 
 .wenge-brown {
     color: var(--wenge-brown);
@@ -67,6 +70,12 @@ hr {
     color: var(--nutmeg);
 }
 
+.dark-charcoal {
+    color: var(--dark-charcoal);
+}
+.light-grey {
+    color: var(--light-grey);
+}
 .prep-time {
     background-color: var(--rose-white);
 }
